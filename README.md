@@ -46,28 +46,6 @@ clean-architecture-task-api/
 └── .env.example # Environment template
 
 
-## 🎥 Video Demonstration
-
-Watch the complete project demonstration on YouTube:
-
-[![Project Demo Video](https://drive.google.com/file/d/1rriAiMQxDrCYtkyNRuvlyxT2AlNV_YJv/view?usp=drivesdk)
-
-**Click the image above to watch the video demonstration**
-
-### What the video covers:
-1. Backend API demonstration (endpoints, authentication)
-2. Frontend Todo App walkthrough
-3. Database interactions
-4. Code structure explanation
-5. Live testing of all features
-
-### Quick timestamps:
-- 0:00 - Introduction & project overview
-- 1:30 - Backend API demonstration
-- 3:45 - Frontend application walkthrough
-- 5:20 - Database operations
-- 7:00 - Code architecture explanation
-- 9:15 - Live testing & Q&A
 
 ## 🎥 Video Demonstration
 

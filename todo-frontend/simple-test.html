@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <h1>Direct API Test</h1>
+    <button onclick="test()">Test Connection</button>
+    <div id="result"></div>
+    
+    <script>
+    async function test() {
+        try {
+            const response = await fetch('http://localhost:4000/health');
+            const data = await response.json();
+            document.getElementById('result').innerHTML = 
+                `<p style="color:green">✅ API Connected: ${data.message}</p>`;
+        } catch (error) {
+            document.getElementById('result').innerHTML = 
+                `<p style="color:red">❌ Error: ${error.message}</p>`;
+        }
+    }
+    </script>
+</body>
+</html>
